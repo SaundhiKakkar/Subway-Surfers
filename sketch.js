@@ -26,7 +26,7 @@ function preload(){
 function setup(){
   themeSound.loop();
   
-  createCanvas(windowsWidth, windowsHeight);
+  createCanvas(400, 400);
 
 path=createSprite(200,200);
 path.addImage(pathImg);
