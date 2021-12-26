@@ -13,14 +13,13 @@ var b = 0;
 var coinG,drinkG,powerG,bombG;
 
 function preload(){
-  pathImg = loadImage("path.png");
-  boyImg = loadAnimation("Jake1.png","Jake2.png","jake3.png","jake4.PNG","jake5.png");
-  coinImg = loadImage("coin.png");
-  drinkImg = loadImage("energyDrink.png");
-  powerImg = loadImage("jetpack.png");
-  bombImg = loadImage("bomb.png");
-  themeSound = loadSound("Subway-Surfers-theme-song.mp3");
-  gameOverImg = loadImage("game-over-1.jpeg");
+  pathImg = loadImage("assets/path.png");
+  boyImg = loadAnimation("assets/Jake1.png","assets/Jake2.png","assets/jake3.png","assets/jake4.PNG","assets/jake5.png");
+  coinImg = loadImage("assets/coin.png");
+  drinkImg = loadImage("assets/energyDrink.png");
+  powerImg = loadImage("assets/jetpack.png");
+  bombImg = loadImage("assets/bomb.png");
+  themeSound = loadSound("assets/Subway-Surfers-theme-song.mp3");
  
 }
 
